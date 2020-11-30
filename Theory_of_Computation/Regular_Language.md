@@ -6,14 +6,15 @@ Regular language is a formal language that can be presented by [regular expressi
 can be recognized by some [final automaton](#Final-Automaton-(FA)).
 
 > **Kleene's theorem**  
-> if a language is defined by one of:  RegEx, DFA, NFA or GNFA,
+> if a language is defined by one of: 
+> [RegEx](#Regular-Expression-(RegEx)), [DFA](#Deterministic-Final-Automaton-(DFA)), [NFA](#Nondeterministic-Final-Automaton-(NFA)) or [GNFA](#Generalized-Nondeterministic-Finite-Automaton-(GNFA)),
 > it is also can be defined by any other method.  
-> As following figure:
+> As following:
 ```
- RegEx ----> NFA
-   ^          |
-   |          v
-  GNFA <---- FA
+   RegEx ----> NFA   
+     ^          |    
+     |          v    
+    GNFA <---- DFA   
 ```
 
 <br/>
