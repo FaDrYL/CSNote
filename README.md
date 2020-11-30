@@ -11,17 +11,21 @@ Learning notes of Computer Science
 ## Table of Contents
 > **Theory of Computation**
 - Regular Language
+  - Regular Expression (RegEx)
   - Final Automaton (FA)
   - Nondeterministic Final Automaton (NFA)
   - Generalized Nondeterministic Finite Automaton (GNFA)
-  - Regular Expression (Regex)
   - Pumping lemma for regular languages
 - Context-Free Language (CFL)
   - Context-Free Grammar (CFG)
   - Pumping lemma for CFL
 - Turing Machine (TM)
 - Decidable
+  - Mapping Reduction
 - Recursively Enumerable
 - Undecidable
 - P
 - NP
+  - HALTING PROBLEM
+- NP-complete
+  - Satisfiability (SAT)
