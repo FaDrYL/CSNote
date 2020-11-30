@@ -10,7 +10,7 @@ Learning notes of Computer Science
 
 ## Table of Contents
 > **Theory of Computation**
-- Regular Language
+- [Regular Language](./Theory_of_Computation/Regular_Language.md)
   - Regular Expression (RegEx)
   - Final Automaton (FA)
   - Nondeterministic Final Automaton (NFA)
