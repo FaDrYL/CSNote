@@ -123,4 +123,11 @@ So, if *i* is not 1, then numbers of *a* will either less or more than numbers o
 Which is not a word in *l*.
 
 By the contradiction of conclusion of pumping lemma, the language `a^nb^n` is not regular.
- 
+
+<br/>
+
+> How to prove a language is regular?
+
+Just write a regular expression for it.
+
+
