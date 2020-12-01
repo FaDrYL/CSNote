@@ -8,9 +8,9 @@ Learning notes of Computer Science
 
 <br/>
 
-## Table of Contents
+## 📚 Table of Contents
 > **Theory of Computation**
-- [Regular Language](./Theory_of_Computation/Regular_Language.md)
+- [Regular Language](./Theory_of_Computation/Regular_Language.md) | [正则语言](./Theory_of_Computation/zh_cn/Regular_Language_zh_cn.md)
   - Regular Expression (RegEx)
   - Final Automaton (FA)
   - Nondeterministic Final Automaton (NFA)
@@ -19,6 +19,7 @@ Learning notes of Computer Science
 - Context-Free Language (CFL)
   - Context-Free Grammar (CFG)
   - Pumping lemma for CFL
+- PushDown Automaton
 - Turing Machine (TM)
 - Decidable
   - Mapping Reduction

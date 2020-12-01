@@ -6,9 +6,9 @@ Regular language is a formal language that can be presented by [regular expressi
 can be recognized by some [final automaton](#Final-Automaton-(FA)).
 
 > **Kleene's theorem**  
-> if a language is defined by one of: 
-> [RegEx](#Regular-Expression-(RegEx)), [DFA](#Deterministic-Final-Automaton-(DFA)), [NFA](#Nondeterministic-Final-Automaton-(NFA)) or [GNFA](#Generalized-Nondeterministic-Finite-Automaton-(GNFA)),
-> it is also can be defined by any other method.  
+> If a language is defined by one of followings: 
+> [RegEx](#Regular-Expression-(RegEx)), [DFA](#Deterministic-Final-Automaton-(DFA)), [NFA](#Nondeterministic-Final-Automaton-(NFA)) or [GNFA](#Generalized-Nondeterministic-Finite-Automaton-(GNFA)).
+> Then, it is also can be defined by any others.  
 > As following:
 ```
    RegEx ----> NFA   
@@ -20,16 +20,16 @@ can be recognized by some [final automaton](#Final-Automaton-(FA)).
 <br/>
 
 ## Regular Expression (RegEx)
-a string that can be used for the pattern matching.
+RegEx is a string that can be used for the pattern matching.
 
 ### syntax 
 `|`: or  
 `*`: zero or more (Kleene star)
 `?`: zero or one (`a?` = `(a|Ɛ)`)  
-`[` `]`: match either one character inside (`[ab]` = `(a|b)`).
+`[` `]`: match either one character inside (`[ab]` = `(a|b)`, either a-to-z and 1-to-9: `[a-z1-9]`).
 
 ### Example
-For a language with alphabet {a, b}, `b` is only at middle of two `a` (i.e. `aa`, `aba`, `aaaba`).
+For a language with alphabet `{a,b}`, `b` is only at middle of two `a` (i.e. `aa`, `aba`, `aaaba`).
 > Is it regular?
 
 Yes, this language is regular, since we can write a regular expression for that.  
@@ -109,7 +109,7 @@ By the contradiction of conclusion of pumping lemma, *l* is not regular.
 ### Example
 > Is the language `a^nb^n` (e.g. `aabb` for n = 2) regular?
 
-Let *l* = language `a^nb^n`, and Assume l is regular.
+Let *l* = language `a^nb^n`, and Assume *l* is regular.
 So, *l* can be recognized by some FA with *k* states.  
 For the word `w = a^kb^k`, `|w| >= k`. 
 Such that:  
@@ -123,11 +123,5 @@ So, if *i* is not 1, then numbers of *a* will either less or more than numbers o
 Which is not a word in *l*.
 
 By the contradiction of conclusion of pumping lemma, the language `a^nb^n` is not regular.
-
-<br/>
-
-> How to prove a language is regular?
-
-Just write a regular expression for it.
 
 
