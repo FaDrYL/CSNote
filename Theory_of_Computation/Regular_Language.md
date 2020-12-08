@@ -85,7 +85,7 @@ After removed `state 3` and combined all transitions together, we will get the R
 
 <br/>
 
-## Pumping lemma for regular languages
+## Pumping Lemma For Regular Languages
 Pumping lemma can be used for prove that the language is not regular.
 
 It works by contradiction.
