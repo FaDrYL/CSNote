@@ -41,6 +41,8 @@ S -> aSa         (apply production rule 1 on S)
 Done!
 ```
 
+<br/>
+
 ## Parse Tree
 Parse Tree a tree structure to parse a string.
 
@@ -86,13 +88,15 @@ Right-hand side should only have exact two non-terminals, one terminal or empty 
 ## Pumping Lemma For CFL
 We can use pumping lemma for CFL to **disprove** the language is context-free.
 
-It is similar to the pumping lemma for regular language. But, there has some extra rules.
+It is similar to the pumping lemma for regular language. But, there has some different rules.
 
 For the language *l* that is context-free, by definition of CFL, *l* has a CFG in CNF that has *k* non-terminals.  
-For a word *w* in *l* that `|w| > 2^k`.  
-If `k = 1`, then the CFG can only be `S -> aa, S-> Ɛ or S -> SS`.  
-If `w > 2^k`, then it must have a production rule like `S -> SS`.  
-Otherwise, it only has `S -> aa, S-> Ɛ`. Words in such language can only be: `aa` or `Ɛ` which is smaller than 2^k.
+For a word *w* in *l* that `|w| >= 2^k`.  
+
+> If `k = 1`, then the CFG can only be `S -> a, S-> Ɛ or S -> SS`.  
+> If `w > 2^k`, then it must have a production rule like `S -> SS`.  
+> Otherwise, it only has `S -> a, S-> Ɛ`. Words in such language can only be: `a` or `Ɛ` which is smaller than 2^k.
+
 The rules of pumping lemma for cfl:  
 we choose a word for *w* (As simple as possible).  
 1. *w* can partition to *uvxyz*. (`w = uvxyz`)  
@@ -111,7 +115,7 @@ By the contradiction of conclusion of pumping lemma, *l* is not context-free.
 
 let *l* be the language `a^nb^na^n`, Assume *l* is context-free.  
 So, *l* has a CFG in CNF with *k* non-terminals.  
-For a word `w = a^kb^ka^k` in *l* that `|w| > 2^k`,  
+For a word `w = a^kb^ka^k` in *l* that `|w| >= 2^k`,  
 Such that:  
 1. `w = uvxyz`.
 2. `|vy| > 0`.
@@ -123,11 +127,11 @@ For the first case, `vxy = a^kb^k`, `u = Ɛ` and `z = a^k`.
 `v` can be `a^kb^k` or `a^k with some b's` or `some a's`.
 For all of these, if *i* is not 1, 
 length of first `a` or/and `b` will either less or more than length of last part of `a`s.
-which means `u(v^i)x(y^i)z` is not context-free.
+which means `u(v^i)x(y^i)z` is a word in *l*.
 
 For the second case, it is same as above. except `v` can be `b^ka^k` or `b^k with some a's` or `some b's`.
 Therefore, if *i* is not 1, then length of `b` or/and second part of `a` will either less or more than length of first part of `a`s.
-which means `u(v^i)x(y^i)z` is not context-free.
+which means `u(v^i)x(y^i)z` is a word in *l*.
 
 By the contradiction of conclusion of pumping lemma, the language `a^nb^na^n` is not context-free.
 
