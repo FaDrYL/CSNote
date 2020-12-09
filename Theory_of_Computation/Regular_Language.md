@@ -92,7 +92,9 @@ It works by contradiction.
 
 For a language *l* that is regular. So, *l* can be recognized by some FA with *k* states.  
 Then, for a word *w* that *|w| >= k*.  
-Therefore, this FA must have a loop (or kleene star `*` in RegEx) that makes length of *w* larger than k-1.  
+
+> Therefore, this FA must have a loop (or kleene star `*` in RegEx) that makes length of *w* larger than k-1.  
+
 For the rule of pumping lemma:  
 we can choose a word for *w* (As simple as possible).
 1. *w* can partition to *xyz*. (`w = xyz`)
