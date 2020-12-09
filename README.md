@@ -16,7 +16,7 @@ Learning notes of Computer Science
   - Nondeterministic Final Automaton (NFA)
   - Generalized Nondeterministic Finite Automaton (GNFA)
   - Pumping lemma for regular languages
-- [Context-Free Language (CFL)](./Theory_of_Computation/Context_Free_Language.md)
+- [Context-Free Language (CFL)](./Theory_of_Computation/Context_Free_Language.md) | [上下文无关语言](./Theory_of_Computation/zh_cn/Context_Free_Language_zh_cn.md)
   - Context-Free Grammar (CFG)
   - Pumping lemma for CFL
 - Pushdown Automaton (PDA)
