@@ -30,7 +30,7 @@ PDA can be used to present CFG, also CFL.
 <br/>
 
 ## Convert CFG To PDA
-> Convert a CFG to PDA
+> How to make a PDA from given CFG?
 
 The CFG of language PALINDROME we write before.
 

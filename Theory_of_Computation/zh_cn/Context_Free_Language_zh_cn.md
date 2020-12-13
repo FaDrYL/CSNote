@@ -2,7 +2,7 @@
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15)](https://github.com/FaDrYL)
 [![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f)](https://www.fadryl.com/)
 
-**Context-Free Language**  
+**Context-Free Language (CFL)**  
 上下文无关语言是以[上下文无关文法](#上下文无关文法（CFG）)定义的语言。
                           
 <br/>
