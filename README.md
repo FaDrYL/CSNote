@@ -19,7 +19,7 @@ Learning notes of Computer Science
 - [Context-Free Language (CFL)](./Theory_of_Computation/Context_Free_Language.md) | [上下文无关语言](./Theory_of_Computation/zh_cn/Context_Free_Language_zh_cn.md)
   - Context-Free Grammar (CFG)
   - Pumping lemma for CFL
-- [Pushdown Automaton (PDA)](./Theory_of_Computation/Pushdown_Automaton.md)
+- [Pushdown Automaton (PDA)](./Theory_of_Computation/Pushdown_Automaton.md) | [下推自动机](./Theory_of_Computation/zh_cn/Pushdown_Automaton_zh_cn.md)
 - Turing Machine (TM)
 - Decidable
   - Mapping Reduction
