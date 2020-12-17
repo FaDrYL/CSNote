@@ -20,7 +20,7 @@ Learning notes of Computer Science
   - Context-Free Grammar (CFG)
   - Pumping lemma for CFL
 - [Pushdown Automaton (PDA)](./Theory_of_Computation/Pushdown_Automaton.md) | [下推自动机](./Theory_of_Computation/zh_cn/Pushdown_Automaton_zh_cn.md)
-- Turing Machine (TM)
+- [Turing Machine (TM)](./Theory_of_Computation/Turing_Machine.md)
 - Decidable
   - Mapping Reduction
 - Recursively Enumerable
