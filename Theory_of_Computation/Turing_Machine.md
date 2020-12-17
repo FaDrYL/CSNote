@@ -6,6 +6,11 @@ Turing Machine (TM) is the abstract computational machine.
 
 Given any algorithm, we can construct some TM to simulate that.
 
+> **Church-Turing Thesis**  
+> Any function which can defined by an 
+  algorithm can be represented by a Turing 
+  Machine.
+
 <br/>
 
 ## Components
