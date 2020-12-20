@@ -26,7 +26,7 @@ Given any algorithm, we can construct some TM to simulate that.
   - `read -> write, direction`
     - `read` is the reading symbol.
     - `write` is the writing symbol.
-    - `direction` is the movement of the tap. (Left `L` or Right `R`)
+    - `direction` is the movement of the tape. (Left `L` or Right `R`)
   - `1 -> 0, L`
     - reading `1` and replaced with `0`, then move to the left cell on the tape.
 
