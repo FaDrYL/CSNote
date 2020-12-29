@@ -41,6 +41,3 @@ Also, if `A` and `B` are decidable, then also
 - `A ∪ B`
 - `AB`
 
-<br/>
-
-## 
