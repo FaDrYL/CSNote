@@ -22,7 +22,7 @@ Learning notes of Computer Science
 - [Pushdown Automaton (PDA)](./Theory_of_Computation/Pushdown_Automaton.md) | [下推自动机](./Theory_of_Computation/zh_cn/Pushdown_Automaton_zh_cn.md)
 - [Turing Machine (TM)](./Theory_of_Computation/Turing_Machine.md) | [图灵机](./Theory_of_Computation/zh_cn/Turing_Machine_zh_cn.md)
 - [Decidable Language](./Theory_of_Computation/Decidable_Language.md) | [可判定语言](./Theory_of_Computation/zh_cn/Decidable_Language_zh_cn.md)
-- Recursively Enumerable
+- [Recursively Enumerable](./Theory_of_Computation/Recursively_Enumerable.md)
 - Undecidable
 - P
 - NP
