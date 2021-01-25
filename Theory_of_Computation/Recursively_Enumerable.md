@@ -4,7 +4,7 @@
 
 A language is recursively enumerable (RE) 
 if there exist a TM such that `Accept(T) = L`. 
-For the string outside the language, the TM may be `reject` or `loops forever`. (Main difference between RE an R)
+For the string outside the language, the TM may be `reject` or `loops forever`. (Main differences between RE an R)
 
 Also known as, **Turing recognizable**, **Type 0** (in CNF).
 
